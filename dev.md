@@ -36,3 +36,8 @@ ArrayBuffer
 Decorator
 参考链接
 ```
+
+更新版本号
+```bash
+npm version patch
+```
