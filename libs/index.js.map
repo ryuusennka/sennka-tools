@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":[],"file":"index.js"}
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":"AAAA;AACA","sourcesContent":["// import 'core-js/stable';\n// import 'regenerator-runtime/runtime';\n"],"file":"index.js"}
