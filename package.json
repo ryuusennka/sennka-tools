@@ -1,7 +1,7 @@
 {
   "name": "sennka-libs",
   "version": "0.0.1",
-  "description": "",
+  "description": "This is my library of front-end tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/ryuusennka/sennka-libs.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["js","utils"],
+  "author": "ryuusennka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryuusennka/sennka-libs/issues"
