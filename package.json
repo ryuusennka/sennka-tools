@@ -1,6 +1,6 @@
 {
   "name": "sennka-libs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is my library of front-end tools",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/ryuusennka/sennka-libs.git"
   },
-  "keywords": ["js","utils"],
+  "keywords": [
+    "js",
+    "utils"
+  ],
   "author": "ryuusennka",
   "license": "ISC",
   "bugs": {
