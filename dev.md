@@ -37,7 +37,16 @@ Decorator
 参考链接
 ```
 
-更新版本号
+# 更新版本号
+
 ```bash
 npm version patch
+```
+
+# 删除包
+
+```bash
+npm unpublish package_name # 撤销已发布的包
+npm unpublish test --force # 强制撤销
+npm unpublish test@0.0.2   # 可以撤销自己已发布的某个版本
 ```

@@ -2,9 +2,11 @@
   "name": "sennka-libs",
   "version": "0.0.2",
   "description": "This is my library of front-end tools",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./libs && babel ./src -d ./libs -s",
+    "watch": "babel ./src -d ./libs -w -s"
   },
   "repository": {
     "type": "git",
@@ -12,12 +14,23 @@
   },
   "keywords": [
     "js",
-    "utils"
+    "utils",
+    "snippet"
   ],
-  "author": "ryuusennka",
+  "author": "ryuusennka <369563963@qq.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryuusennka/sennka-libs/issues"
   },
-  "homepage": "https://github.com/ryuusennka/sennka-libs#readme"
+  "homepage": "https://github.com/ryuusennka/sennka-libs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.5"
+  }
 }

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.separateArr=exports.generateContinuousNumber=void 0;var generateContinuousNumber=function(a,b){for(var c=[],d=a;d<=b;d++)c.push(d);return c};exports.generateContinuousNumber=generateContinuousNumber;var separateArr=function(a,b){for(var c=Math.ceil(a.length/b),d=Array(c).fill([]),e=0;e<c;e++)d[e]=a.slice(e*b,b*(e+1));return d};exports.separateArr=separateArr;
+//# sourceMappingURL=Array.js.map
