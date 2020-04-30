@@ -1,2 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.$$=void 0;var $$=function(a){var b=1<arguments.length&&arguments[1]!==void 0?arguments[1]:document,c=b.querySelectorAll(a);return Array.prototype.slice.call(c)};exports.$$=$$;
-//# sourceMappingURL=Dom.js.map

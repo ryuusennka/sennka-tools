@@ -2,7 +2,7 @@
  * @Author: ryuusennka
  * @Date: 2020-04-22 16:38:38
  * @LastEditors: ryuusennka
- * @LastEditTime: 2020-04-25 04:34:07
+ * @LastEditTime: 2020-04-30 12:07:46
  * @FilePath: /sennka-libs/src/String.js
  * @Description:
  */
@@ -60,20 +60,17 @@ export const formatPassTime = startTime => {
  * @param {Number} endTime 传入时间戳
  */
 export const formatRemainTime = endTime => {
-  let startDate = new Date() * 1; //开始时间
-  let endDate = new Date(endTime) * 1; //结束时间
-  let t = endDate - startDate; //时间差
-  let d = 0,
-    h = 0,
-    m = 0,
-    s = 0;
-  if (t >= 0) {
-    d = Math.floor(t / 1000 / 3600 / 24);
-    h = Math.floor((t / 1000 / 60 / 60) % 24);
-    m = Math.floor((t / 1000 / 60) % 60);
-    s = Math.floor((t / 1000) % 60);
-  }
-  return d + '天 ' + h + '小时 ' + m + '分钟 ' + s + '秒';
+  let startDate = new Date() * 1; // 现在, 开始时间
+  let endDate = new Date(endTime) * 1; // 结束时间
+  let diffTime = endDate - startDate;
+  let day = (hour = minute = second = 0);
+  if (diffTime <= 0) return '已过期';
+  day = Math.floor(diffTime / (1000 * 3600 * 24));
+  hour = Math.floor((diffTime / (1000 * 3600)) % 24);
+  minute = Math.floor((diffTime / (1000 * 60)) % 60);
+  second = Math.floor((diffTime / 1000) % 60);
+  console.log(`${day}天,${hour}小时,${minute}分,${second}秒`);
+  return [day, hour, minute, second];
 };
 
 /**

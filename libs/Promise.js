@@ -1,2 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.handlerPromise=void 0;var handlerPromise=function(a){return a.then(function(a){return[null,a]})["catch"](function(a){return[a,null]})};exports.handlerPromise=handlerPromise;
-//# sourceMappingURL=Promise.js.map
