@@ -4,7 +4,7 @@
   "description": "This is my library of front-end tools",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src -d ./libs -s",
+    "build": "babel ./src -d ./libs -s && cp package.json libs/",
     "prebuild": "rm -rf ./libs",
     "watch": "babel ./src -d ./libs -w -s"
   },
