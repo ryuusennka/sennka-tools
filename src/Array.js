@@ -3,7 +3,7 @@
  * @Date: 2020-04-30 11:12:40
  * @LastEditors: ryuusennka
  * @LastEditTime: 2020-04-30 11:16:21
- * @FilePath: /sennka-libs/src/Array.js
+ * @FilePath: /sennka-tools/src/Array.js
  * @Description:
  */
 /**

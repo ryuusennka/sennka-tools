@@ -3,7 +3,7 @@
  * @Date: 2020-04-22 16:38:38
  * @LastEditors: ryuusennka
  * @LastEditTime: 2020-04-30 12:07:46
- * @FilePath: /sennka-libs/src/String.js
+ * @FilePath: /sennka-tools/src/String.js
  * @Description:
  */
 

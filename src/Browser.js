@@ -3,7 +3,7 @@
  * @Date: 2020-04-30 11:23:25
  * @LastEditors: ryuusennka
  * @LastEditTime: 2020-04-30 11:28:58
- * @FilePath: /sennka-libs/src/Browser.js
+ * @FilePath: /sennka-tools/src/Browser.js
  * @Description: 浏览器的方法，如激活粘贴图片转base64,让body可以编辑，解文字不能复制
  */
 

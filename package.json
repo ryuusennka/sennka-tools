@@ -1,5 +1,5 @@
 {
-  "name": "sennka-libs",
+  "name": "sennka-tools",
   "version": "0.0.1",
   "description": "This is my library of front-end tools",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryuusennka/sennka-libs.git"
+    "url": "git+https://github.com/ryuusennka/sennka-tools.git"
   },
   "keywords": [
     "js",
@@ -20,9 +20,9 @@
   "author": "ryuusennka <369563963@qq.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ryuusennka/sennka-libs/issues"
+    "url": "https://github.com/ryuusennka/sennka-tools/issues"
   },
-  "homepage": "https://github.com/ryuusennka/sennka-libs#readme",
+  "homepage": "https://github.com/ryuusennka/sennka-tools#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
