@@ -29,8 +29,5 @@
     "@babel/preset-env": "^7.9.5",
     "babel-preset-minify": "^0.5.1"
   },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "regenerator-runtime": "^0.13.5"
-  }
+  "dependencies": {}
 }
