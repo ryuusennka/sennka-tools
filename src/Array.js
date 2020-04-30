@@ -2,7 +2,7 @@
  * @Author: ryuusennka
  * @Date: 2020-04-30 11:12:40
  * @LastEditors: ryuusennka
- * @LastEditTime: 2020-04-30 11:16:21
+ * @LastEditTime: 2020-04-30 16:38:33
  * @FilePath: /sennka-tools/src/Array.js
  * @Description:
  */
@@ -18,6 +18,7 @@ export const generateContinuousNumber = (min, max) => {
   }
   return arr;
 };
+// Array.from({length: max}, (v, i) => i + min)
 
 /**
  * 把一个数组按几个分成一组,[1,2,3,4] separateArr(arr, 3) [[1,2,3], [4]]
