@@ -2,8 +2,8 @@
  * @Author: ryuusennka
  * @Date: 2020-04-30 13:17:02
  * @LastEditors: ryuusennka
- * @LastEditTime: 2020-05-06 09:51:56
- * @FilePath: /sennka-libs/src/Dom.js
+ * @LastEditTime: 2020-05-15 10:48:53
+ * @FilePath: /sennka-tools/src/Dom.js
  * @Description:
  */
 
@@ -41,3 +41,20 @@ export const getParameterByName = (name, url) => {
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 };
+
+/**
+ * 返回顶部过渡效果
+ */
+export const backTopSlow = (() => {
+  function callback() {
+    const scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    moveUp(scrollTop);
+    const slow = requestAnimationFrame(callback);
+    if (scrollTop === 0) cancelAnimationFrame(slow);
+  }
+  function moveUp(distance) {
+    window.scrollTo(0, distance - distance / 20);
+  }
+  return callback;
+})();
